@@ -5,3 +5,7 @@ Changelog
 ------
 Initial Commit (Forked from https://github.com/basgys/emailvision)
 Changed Emailvision to Smartfocus (class and namespace name)
+
+1.0.1
+------
+Fix gemspec
