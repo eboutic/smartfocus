@@ -10,7 +10,6 @@ Gem::Specification.new do |s|
   s.date        = Time.now.strftime('%Y-%m-%d')
   s.license     = 'MIT'
 
-
   s.files       = Dir["lib/**/*"]
   s.require_path = 'lib'
 
