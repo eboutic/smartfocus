@@ -1,0 +1,15 @@
+development:
+    server_name:
+    login: 
+    password: 
+    key: 
+production:
+    server_name: 
+    login: 
+    password: 
+    key: 
+test:
+    server_name: 
+    login: 
+    password: 
+    key:

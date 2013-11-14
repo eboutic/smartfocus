@@ -1,0 +1,29 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://emvapi.emv3.com/apimember/services/rest/connect/open?key=api_key&login=api_login&password=api_password&token=
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - text/xml
+  response:
+    status:
+      code: 200
+      message: OK
+    headers:
+      Date:
+      - Wed, 09 Oct 2013 22:05:50 GMT
+      Content-Type:
+      - application/xml;charset=utf-8
+      Content-Length:
+      - '248'
+    body:
+      encoding: US-ASCII
+      string: <?xml version="1.0" encoding="utf-8" standalone="yes"?><response responseStatus="success"><result
+        xsi:type="xs:string" xmlns:xs="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">111token111</result></response>
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 22:05:57 GMT
+recorded_with: VCR 2.6.0

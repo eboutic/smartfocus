@@ -1,0 +1,33 @@
+---
+http_interactions:
+- request:
+    method: get
+    uri: http://emvapi.emv3.com/apimember/services/rest/member/getMemberByEmail/111token111/basgys@gmail.com?
+    body:
+      encoding: US-ASCII
+      string: ''
+    headers:
+      Content-Type:
+      - text/xml
+  response:
+    status:
+      code: 200
+      message: !binary |-
+        T0s=
+    headers:
+      !binary "RGF0ZQ==":
+      - !binary |-
+        V2VkLCAwOSBPY3QgMjAxMyAyMTo0NDozOSBHTVQ=
+      !binary "Q29udGVudC1UeXBl":
+      - !binary |-
+        YXBwbGljYXRpb24veG1sO2NoYXJzZXQ9dXRmLTg=
+      !binary "VHJhbnNmZXItRW5jb2Rpbmc=":
+      - !binary |-
+        Y2h1bmtlZA==
+    body:
+      encoding: ASCII-8BIT
+      string: !binary |-
+        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyI/PjxyZXNwb25zZSByZXNwb25zZVN0YXR1cz0ic3VjY2VzcyI+PG1lbWJlcnM+PG1lbWJlcj48YXR0cmlidXRlcz48ZW50cnk+PGtleT5NRU1CRVJfSUQ8L2tleT48dmFsdWUgeHNpOnR5cGU9InhzOmxvbmciIHhtbG5zOnhzPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSI+MTwvdmFsdWU+PC9lbnRyeT48ZW50cnk+PGtleT5FTUFJTDwva2V5Pjx2YWx1ZSB4c2k6dHlwZT0ieHM6c3RyaW5nIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPmJhc2d5c0BnbWFpbC5jb208L3ZhbHVlPjwvZW50cnk+PGVudHJ5PjxrZXk+QU5PVEhFUl9GSUVMRDwva2V5Pjx2YWx1ZSB4c2k6dHlwZT0ieHM6c3RyaW5nIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPmFub3RoZXIgdmFsdWU8L3ZhbHVlPjwvZW50cnk+PC9hdHRyaWJ1dGVzPjwvbWVtYmVyPjwvbWVtYmVycz48L3Jlc3BvbnNlPg==
+    http_version: 
+  recorded_at: Wed, 09 Oct 2013 21:44:46 GMT
+recorded_with: VCR 2.6.0
