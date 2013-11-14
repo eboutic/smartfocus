@@ -16,5 +16,5 @@ group :test do
   gem 'rspec'
   gem 'tzinfo'
   gem 'vcr'
-  gem 'webmock', '< 1.12'
+  gem 'webmock'
 end
