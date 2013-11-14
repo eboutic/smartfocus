@@ -15,7 +15,7 @@ Gem::Specification.new do |s|
   s.require_path = 'lib'
 
   s.authors     = ['Bastien Gysler', 'eboutic.ch']
-  s.email       = ['basgys@gmail.com', 'tech@eboutic.ch']
+  s.email       = 'tech@eboutic.ch'
   s.homepage    = 'https://github.com/eboutic/smartfocus'
   
   s.add_dependency("httparty", "~> 0.12.0")
