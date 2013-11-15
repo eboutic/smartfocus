@@ -17,7 +17,7 @@ Smartfocus (ex Emailvision) is a REST API wrapper interacting with Smartfocus. I
 IMPORTANT
 ---------
 
-This is the official forked gem from https://github.com/basgys/emailvision
+This is forked gem from https://github.com/basgys/emailvision
 Bastien Gysler is the creator of this gem.
 The gem was rename to reflect the rename from emvailvision to smartfocus
 
