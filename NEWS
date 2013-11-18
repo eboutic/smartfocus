@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.2 (2013-11-18)
+------
+Deleting references to the initial author
+
 1.0.1 (2013-11-14)
 ------
 Fix gemspec
