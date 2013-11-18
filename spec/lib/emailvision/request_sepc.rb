@@ -28,8 +28,8 @@ describe Smartfocus::Request do
   end
 
   it "has a body" do
-    subject.prepare('/my/uri', body: {firstname: 'Bastien'})
-    expect(subject.body).to eq('<?xml version="1.0" encoding="UTF-8"?><firstname>Bastien</firstname>')
+    subject.prepare('/my/uri', body: {firstname: 'Jean'})
+    expect(subject.body).to eq('<?xml version="1.0" encoding="UTF-8"?><firstname>Jean</firstname>')
   end
 
 end

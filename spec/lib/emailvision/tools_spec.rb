@@ -10,7 +10,7 @@ describe Smartfocus::Tools do
 
     let(:parameters) do
       {
-        name: "Bastien",
+        name: "Jean",
         login_count: 44,
         created_at: DateTime.parse("2013-10-11 09:00"),
         updated_at: Time.parse("2013-10-11 09:00"),
@@ -30,7 +30,7 @@ describe Smartfocus::Tools do
     end
 
     it "sanitizes String parameters" do
-      expect(sanitized_parameters[:name]).to eq("Bastien")
+      expect(sanitized_parameters[:name]).to eq("Jean")
     end
 
     it "sanitizes Int parameters" do
@@ -96,7 +96,7 @@ describe Smartfocus::Tools do
 
     let(:parameters) do
       {
-        name: "Bastien",
+        name: "Jean",
         login_count: 44,
         created_at: time_with_zone,
         updated_at: time_with_zone,
@@ -114,7 +114,7 @@ describe Smartfocus::Tools do
     end    
 
     it "transform parameters to XML" do
-      expect(subject.to_xml_as_is(parameters)).to eq("<?xml version=\"1.0\" encoding=\"UTF-8\"?><name>Bastien</name><login_count>44</login_count><created_at>2013-10-11 09:00:00 -0400</created_at><updated_at>2013-10-11 09:00:00 -0400</updated_at><date>1999-10-09</date><attributes><a>1</a><b>2</b></attributes>")
+      expect(subject.to_xml_as_is(parameters)).to eq("<?xml version=\"1.0\" encoding=\"UTF-8\"?><name>Jean</name><login_count>44</login_count><created_at>2013-10-11 09:00:00 -0400</created_at><updated_at>2013-10-11 09:00:00 -0400</updated_at><date>1999-10-09</date><attributes><a>1</a><b>2</b></attributes>")
     end
 
     it "return an empty string if the argument is empty" do

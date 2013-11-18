@@ -13,7 +13,7 @@ Gem::Specification.new do |s|
   s.files       = Dir["lib/**/*"]
   s.require_path = 'lib'
 
-  s.authors     = ['Bastien Gysler', 'eboutic.ch']
+  s.authors     = 'eboutic.ch'
   s.email       = 'tech@eboutic.ch'
   s.homepage    = 'https://github.com/eboutic/smartfocus'
   

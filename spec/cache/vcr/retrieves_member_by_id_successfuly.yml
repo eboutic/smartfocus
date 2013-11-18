@@ -26,8 +26,7 @@ http_interactions:
         Y2h1bmtlZA==
     body:
       encoding: ASCII-8BIT
-      string: !binary |-
-        PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiIHN0YW5kYWxvbmU9InllcyI/PjxyZXNwb25zZSByZXNwb25zZVN0YXR1cz0ic3VjY2VzcyI+PG1lbWJlcnM+PG1lbWJlcj48YXR0cmlidXRlcz48ZW50cnk+PGtleT5NRU1CRVJfSUQ8L2tleT48dmFsdWUgeHNpOnR5cGU9InhzOmxvbmciIHhtbG5zOnhzPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYSIgeG1sbnM6eHNpPSJodHRwOi8vd3d3LnczLm9yZy8yMDAxL1hNTFNjaGVtYS1pbnN0YW5jZSI+MTwvdmFsdWU+PC9lbnRyeT48ZW50cnk+PGtleT5FTUFJTDwva2V5Pjx2YWx1ZSB4c2k6dHlwZT0ieHM6c3RyaW5nIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPmJhc2d5c0BnbWFpbC5jb208L3ZhbHVlPjwvZW50cnk+PGVudHJ5PjxrZXk+QU5PVEhFUl9GSUVMRDwva2V5Pjx2YWx1ZSB4c2k6dHlwZT0ieHM6c3RyaW5nIiB4bWxuczp4cz0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEiIHhtbG5zOnhzaT0iaHR0cDovL3d3dy53My5vcmcvMjAwMS9YTUxTY2hlbWEtaW5zdGFuY2UiPmFub3RoZXIgdmFsdWU8L3ZhbHVlPjwvZW50cnk+PC9hdHRyaWJ1dGVzPjwvbWVtYmVyPjwvbWVtYmVycz48L3Jlc3BvbnNlPg==
-    http_version: 
+      string: "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?><response responseStatus=\"success\"><members><member><attributes><entry><key>MEMBER_ID</key><value xsi:type=\"xs:long\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">1</value></entry><entry><key>EMAIL</key><value xsi:type=\"xs:string\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">jean@gmail.com</value></entry><entry><key>ANOTHER_FIELD</key><value xsi:type=\"xs:string\" xmlns:xs=\"http://www.w3.org/2001/XMLSchema\" xmlns:xsi=\"http://www.w3.org/2001/XMLSchema-instance\">another value</value></entry></attributes></member></members></response>"
+    http_version:
   recorded_at: Wed, 09 Oct 2013 21:44:47 GMT
 recorded_with: VCR 2.6.0

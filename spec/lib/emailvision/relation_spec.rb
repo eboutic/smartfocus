@@ -40,7 +40,7 @@ describe Smartfocus::Relation do
 
     it "triggers a call" do
       expect(api).to receive(:call)
-      subject.get.member.get_member_by_email(uri: ['basgys@gmail.com']).call
+      subject.get.member.get_member_by_email(uri: ['jean@gmail.com']).call
     end
 
   end

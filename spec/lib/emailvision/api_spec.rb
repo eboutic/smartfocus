@@ -94,14 +94,14 @@ describe Smartfocus::Api do
     it "retrieves member by email successfuly" do
       VCR.use_cassette('retrieves member by email successfuly') do
         subject.token = '111token111'
-        result = subject.get.member.get_member_by_email(uri: ['basgys@gmail.com']).call
+        result = subject.get.member.get_member_by_email(uri: ['jean@gmail.com']).call
         expect(result).to eq({
                                  "members"=>{
                                      "member"=>{
                                          "attributes"=>{
                                              "entry"=>[
                                                  {"key"=>"MEMBER_ID", "value"=>"1"},
-                                                 {"key"=>"EMAIL", "value"=>"basgys@gmail.com"},
+                                                 {"key"=>"EMAIL", "value"=>"jean@gmail.com"},
                                                  {"key"=>"ANOTHER_FIELD", "value"=>"another value"}
                                              ]
                                          }
@@ -122,7 +122,7 @@ describe Smartfocus::Api do
                                          "attributes"=>{
                                              "entry"=>[
                                                  {"key"=>"MEMBER_ID", "value"=>"1"},
-                                                 {"key"=>"EMAIL", "value"=>"basgys@gmail.com"},
+                                                 {"key"=>"EMAIL", "value"=>"jean@gmail.com"},
                                                  {"key"=>"ANOTHER_FIELD", "value"=>"another value"}
                                              ]
                                          }

@@ -14,15 +14,6 @@ Smartfocus (ex Emailvision) is a REST API wrapper interacting with Smartfocus. I
 * Is well integrated with Rails, but can be used alone though
 * Is actively developed
 
-IMPORTANT
----------
-
-This is forked gem from https://github.com/basgys/emailvision
-Bastien Gysler is the creator of this gem.
-The gem was rename to reflect the rename from emvailvision to smartfocus
-
-This version changed all Emailvision class to Smartfocus
-
 Support
 -------
 
@@ -179,8 +170,8 @@ body = {
   :synchro_member=>{
     :dyn_content=>{
       :entry=>[
-        {:key=>"FIRSTNAME", :value=>"Bastien"},
-        {:key=>"LASTNAME", :value=>"Gysler"}
+        {:key=>"FIRSTNAME", :value=>"Jean"},
+        {:key=>"LASTNAME", :value=>"Dupont"}
       ]
     }, 
     :email=>"my@mail.com"
@@ -203,22 +194,10 @@ DEBUG
 
 Debug mode show request sent/received in the console
 
-It's also possible to monitor the traffic by using a proxy like this : 
+It's also possible to monitor the traffic by using a proxy like this :
 
 ```ruby
 Smartfocus::Api.http_proxy 'localhost', 8888
 ```
 
 Then all requests will be redirected through the given proxy
-
-
-Author
-------
-
-Funded by Bastien Gysler :: [bastiengysler.com](http://www.bastiengysler.com/) :: @basgys
-Smartfocus gem is maintained by eboutic.ch
-
-License
--------
-
-eboutic is Copyright © 2007-2013 eboutic.ch. It is free software, and may be redistributed under the terms specified in the LICENSE file.
