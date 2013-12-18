@@ -1,6 +1,10 @@
 Changelog
 =========
 
+1.0.3 (unreleased)
+------
+Support of Rails 4.1
+
 1.0.2 (2013-11-18)
 ------
 Deleting references to the initial author
