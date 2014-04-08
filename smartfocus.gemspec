@@ -17,8 +17,8 @@ Gem::Specification.new do |s|
   s.email       = 'tech@eboutic.ch'
   s.homepage    = 'https://github.com/eboutic/smartfocus'
   
-  s.add_dependency("httparty", "~> 0.12.0")
+  s.add_dependency("httparty", "~> 0.13.0")
   s.add_dependency("crack", "~> 0.4.0")
-  s.add_dependency("builder", ">= 3.0")
+  s.add_dependency("builder", ">= 3.2")
   s.add_dependency("activesupport", ">= 3.0", "~> 4.0")
 end
