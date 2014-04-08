@@ -1,9 +1,10 @@
 Changelog
 =========
 
-1.0.3 (unreleased)
+1.0.3 (2014-04-08)
 ------
 Support of Rails 4.1
+Bump dependency
 
 1.0.2 (2013-11-18)
 ------
