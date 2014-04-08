@@ -2,7 +2,7 @@
 http_interactions:
 - request:
     method: get
-    uri: http://emvapi.emv3.com/apimember/services/rest/member/getMemberByEmail/111token111/fake@ema.il?
+    uri: http://emvapi.emv3.com/apimember/services/rest/member/getMemberByEmail/111token111/fake@ema.il
     body:
       encoding: US-ASCII
       string: ''
