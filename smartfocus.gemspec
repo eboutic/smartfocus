@@ -6,7 +6,7 @@ Gem::Specification.new do |s|
   s.name        = 'smartfocus'
   s.summary     = "Smartfocus"
   s.description = "REST API wrapper interacting with Smartfocus (ex Emailvision)"
-  s.version     = Smartfocus::Version
+  s.version     = Smartfocus::VERSION
   s.date        = Time.now.strftime('%Y-%m-%d')
   s.license     = 'MIT'
 
